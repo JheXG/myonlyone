@@ -1,0 +1,49 @@
+:root {
+    --heart-color: #ffffff;
+    --background-color: #ebc8c0;
+    --white: #54C1EF;
+}
+
+body {
+    font-family: Tahoma;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: var(--heart-color);
+    background-image: url('img/fondo.jpg'); /* Reemplazar con la ruta correcta de tu imagen de fondo */
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+#valentineImage {
+    width: 600px; /* Tamaño deseado para las imágenes */
+    height: auto;
+    margin-top: 10px; /* Ajuste de margen superior */
+}
+
+#responseMessage {
+    padding: 0px;
+    font-size: 50px;
+}
+
+button {
+    background: var(--heart-color);
+    color: var(--white);
+    border: 0 none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 20px;
+}
